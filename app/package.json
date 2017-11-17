@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "description": "Next.js React SSR App",
+  "dependencies": {
+    "firebase-admin": "5.3.0",
+    "firebase-functions": "0.6.3",
+    "next": "4.0.0-beta.2",
+    "react": "16.0.0",
+    "react-dom": "16.0.0"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=staging node -e \"require('./').start()\"",
+    "build-production": "npm i && NODE_ENV=production next build",
+    "build-staging": "npm i && NODE_ENV=staging next build"
+  }
+}

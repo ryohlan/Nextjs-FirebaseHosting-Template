@@ -1,0 +1,22 @@
+{
+  "hosting": {
+    "public": "public",
+    "rewrites": [
+      {
+        "source": "**/**",
+        "function": "next"
+      }
+    ],
+    "ignore": [
+      "**/.*",
+      "**/node_modules/**",
+      "app/src",
+      "app/flow-typed",
+      "app/pages",
+      "app/next.config.js"
+    ]
+  },
+  "functions": {
+    "source": "app"
+  }
+}
