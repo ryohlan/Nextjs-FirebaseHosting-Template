@@ -1,6 +1,10 @@
-import App from '../components/App'
+// @flow
 
-export default () =>
+import React from 'react';
+import App from '../components/App';
+
+export default () => (
   <App>
     <p>About Page</p>
   </App>
+);

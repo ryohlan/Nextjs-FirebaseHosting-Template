@@ -9,5 +9,8 @@
     "deploy": "npm run build-production && firebase deploy",
     "build-production": "cd app && npm run build-production",
     "build-staging": "cd app && npm run build-staging"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.59.0"
   }
 }
